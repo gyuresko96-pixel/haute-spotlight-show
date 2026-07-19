@@ -262,7 +262,11 @@ function Index() {
             />
             <ContactRow label="Város" value="4400 Nyíregyháza" />
             <ContactRow label="Kategória" value="Plus size női ruhabolt" />
-            <ContactRow label="Messenger" value="Írj üzenetet" href="#" />
+            <ContactRow
+              label="Facebook"
+              value="Kövess minket"
+              href="https://www.facebook.com/profile.php?id=100067135099099"
+            />
 
             <a
               href="tel:+36308510483"
@@ -280,11 +284,20 @@ function Index() {
           <div className="mb-10 text-center">
             <span className="text-xs uppercase tracking-[0.3em] text-rose">Így találsz meg</span>
             <h2 className="mt-4 font-display text-4xl text-primary md:text-5xl">
-              <em className="italic">Látogass el</em> az üzletbe
+              <em className="italic">Előzetes egyeztetés után</em> látogass el az üzletbe
             </h2>
             <p className="mt-4 text-foreground/70">
               4400 Nyíregyháza, Gyöngyvirág utca 3.
             </p>
+            <p className="mt-2 text-foreground/70">
+              Telefon: <a href="tel:+36308510483" className="text-primary hover:underline">(30) 851 0483</a>
+            </p>
+            <a
+              href="https://www.facebook.com/profile.php?id=100067135099099"
+              className="mt-6 inline-flex items-center justify-center rounded-full bg-primary px-8 py-3.5 text-sm uppercase tracking-widest text-primary-foreground shadow-soft transition-all hover:bg-primary/90"
+            >
+              Facebook csoportunk
+            </a>
           </div>
           <div className="overflow-hidden rounded-sm shadow-card">
             <iframe
