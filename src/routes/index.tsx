@@ -153,22 +153,23 @@ function Index() {
           <div>
             <span className="text-xs uppercase tracking-[0.3em] text-rose">Rólam</span>
             <h2 className="mt-4 font-display text-4xl leading-tight text-primary md:text-5xl">
-              Ircsi vagyok — <em className="italic">és minden darabot magam válogatok.</em>
+              Ircsi vagyok — <em className="italic">és a teltebb alkatú nőknek válogatok.</em>
             </h2>
             <div className="mt-8 space-y-4 leading-relaxed text-foreground/80">
               <p>
-                Az Ircsi Ruházat több mint egy bolt: egy hely, ahol megtalálhatod
-                azt a ruhát, amelyben igazán jól érzed magad. Minden darabot gondosan
-                válogatok, hogy hozzád találjon.
+                Az Ircsi Ruházat több mint egy bolt: egy hely, ahol a plus size
+                hölgyek is megtalálhatják azt a darabot, amelyben igazán jól érzik
+                magukat. Figyelek a szabásra, az anyagra és arra, hogy minden ruha
+                előnyösen álljon.
               </p>
               <p>
-                Nyíregyházi ruhabolt, ahol a kényelem és a nőiesség kéz a kézben jár.
-                Legyen szó egy meghitt hétköznapról vagy egy különleges alkalomról —
-                nálam megtalálod a hozzád illő darabot.
+                Nyíregyházi ruhabolt, ahol a kényelem és a nőiesség kéz a kézben jár —
+                bővebb méretekben is. Legyen szó egy meghitt hétköznapról vagy egy
+                különleges alkalomról, nálam megtalálod a hozzád illő darabot.
               </p>
             </div>
             <div className="mt-8 flex flex-wrap gap-2 text-xs">
-              {["Kényelmes", "Nőies", "Válogatott", "Nyíregyháza"].map((t) => (
+              {["Plus size", "Kényelmes", "Nőies", "Bővebb méretek", "Nyíregyháza"].map((t) => (
                 <span
                   key={t}
                   className="rounded-full border border-primary/20 bg-secondary px-4 py-1.5 uppercase tracking-wider text-primary"
