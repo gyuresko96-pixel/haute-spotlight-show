@@ -248,15 +248,20 @@ function Index() {
               Írj, hívj, vagy nézz be — <em className="italic">szeretettel várlak.</em>
             </h2>
             <p className="mt-6 max-w-md leading-relaxed text-primary-foreground/80">
-              Ha kérdésed van egy darabról, vagy szeretnél személyesen válogatni,
-              keress bátran! Öröm lesz beszélgetni veled.
+              Ha kérdésed van egy darabról, vagy szeretnél személyesen válogatni
+              plus size ruhák között, keress bátran! Öröm lesz beszélgetni veled.
             </p>
           </div>
 
           <div className="space-y-6">
             <ContactRow label="Telefon" value="(30) 851 0483" href="tel:+36308510483" />
-            <ContactRow label="Helyszín" value="Nyíregyháza" />
-            <ContactRow label="Kategória" value="Női ruhabolt" />
+            <ContactRow
+              label="Cím"
+              value="Gyöngyvirág u. 3."
+              href="https://www.google.com/maps/search/?api=1&query=4400+Ny%C3%ADregyh%C3%A1za%2C+Gy%C3%B6ngyvir%C3%A1g+utca+3"
+            />
+            <ContactRow label="Város" value="4400 Nyíregyháza" />
+            <ContactRow label="Kategória" value="Plus size női ruhabolt" />
             <ContactRow label="Messenger" value="Írj üzenetet" href="#" />
 
             <a
@@ -265,6 +270,33 @@ function Index() {
             >
               Hívj most
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Map */}
+      <section id="terkep" className="bg-secondary/40 py-20 lg:py-24">
+        <div className="mx-auto max-w-6xl px-6 lg:px-12">
+          <div className="mb-10 text-center">
+            <span className="text-xs uppercase tracking-[0.3em] text-rose">Így találsz meg</span>
+            <h2 className="mt-4 font-display text-4xl text-primary md:text-5xl">
+              <em className="italic">Látogass el</em> az üzletbe
+            </h2>
+            <p className="mt-4 text-foreground/70">
+              4400 Nyíregyháza, Gyöngyvirág utca 3.
+            </p>
+          </div>
+          <div className="overflow-hidden rounded-sm shadow-card">
+            <iframe
+              title="Ircsi Ruházat — térkép"
+              src="https://www.google.com/maps?q=4400+Ny%C3%ADregyh%C3%A1za%2C+Gy%C3%B6ngyvir%C3%A1g+utca+3&output=embed"
+              width="100%"
+              height="420"
+              style={{ border: 0 }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
+            />
           </div>
         </div>
       </section>
