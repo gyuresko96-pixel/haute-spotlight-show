@@ -121,7 +121,7 @@ function Index() {
           <div className="relative lg:col-span-6">
             <div className="relative aspect-[4/5] overflow-hidden rounded-sm shadow-soft">
               <img
-                src={heroImg}
+                src={heroImg.url}
                 alt="Ircsi Ruházat — nőies boutique"
                 className="h-full w-full object-cover"
                 width={1600}
