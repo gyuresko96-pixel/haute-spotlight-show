@@ -1,8 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
-import heroImg from "@/assets/hero.jpg";
-import collection1 from "@/assets/collection-1.jpg";
-import collection2 from "@/assets/collection-2.jpg";
-import collection3 from "@/assets/collection-3.jpg";
+import heroImg from "@/assets/dress-coral.png.asset.json";
+import collection1 from "@/assets/pants-blue.png.asset.json";
+import collection2 from "@/assets/pants-floral.png.asset.json";
+import collection3 from "@/assets/pants-daisy.png.asset.json";
 import logo from "@/assets/logo.png";
 
 export const Route = createFileRoute("/")({
@@ -11,19 +11,19 @@ export const Route = createFileRoute("/")({
 
 const collections = [
   {
-    img: collection1,
-    title: "Hétköznapi elegancia",
-    desc: "Puha anyagok, letisztult fazonok — kényelmes darabok a mindennapokra.",
+    img: collection1.url,
+    title: "Nyári könnyedség",
+    desc: "Levegős, tulipán szabású nadrág — kényelmes és nőies az igazán meleg napokra.",
   },
   {
-    img: collection2,
-    title: "Alkalmi kollekció",
-    desc: "Nőies ruhák, amelyekben ragyoghatsz egy különleges estén.",
+    img: collection2.url,
+    title: "Mediterrán minta",
+    desc: "Bordó-fekete mintás nadrág, amely bármilyen egyszínű felsővel harmonizál.",
   },
   {
-    img: collection3,
-    title: "Őszi melegség",
-    desc: "Kötött darabok földszínekben — puha, meleg, karakteres.",
+    img: collection3.url,
+    title: "Virágos hétköznap",
+    desc: "Aprómintás, lágy esésű nadrág — hordható a hétköznapok bármelyik pillanatában.",
   },
 ];
 
@@ -121,7 +121,7 @@ function Index() {
           <div className="relative lg:col-span-6">
             <div className="relative aspect-[4/5] overflow-hidden rounded-sm shadow-soft">
               <img
-                src={heroImg}
+                src={heroImg.url}
                 alt="Ircsi Ruházat — nőies boutique"
                 className="h-full w-full object-cover"
                 width={1600}
