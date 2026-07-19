@@ -75,16 +75,17 @@ function Index() {
           <div className="flex flex-col justify-center animate-fade-up lg:col-span-6">
             <span className="mb-4 font-script text-3xl text-rose">Nyíregyháza</span>
             <h1 className="font-display text-5xl leading-[1.05] text-primary md:text-6xl lg:text-7xl">
-              Kényelmes és
+              Kényelmes,
               <br />
-              <em className="italic text-rose">nőies</em> ruhák,
+              <em className="italic text-rose">nőies</em> ruhák
               <br />
-              gondosan válogatva.
+              teltebb alkatra.
             </h1>
             <p className="mt-8 max-w-md text-lg leading-relaxed text-foreground/75">
-              Sziasztok! Ircsi vagyok — az Ircsi Ruházat létrehozója. Olyan darabokat
-              hozok nektek, amelyekben jól érzitek magatokat, legyen szó
-              hétköznapokról vagy különleges alkalmakról.
+              Sziasztok! Ircsi vagyok — az Ircsi Ruházat létrehozója. Plus size
+              hölgyeknek válogatok olyan darabokat, amelyek jól szabottak,
+              kényelmesek, és igazán jól állnak — hétköznapokra és különleges
+              alkalmakra egyaránt.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <a
@@ -152,22 +153,23 @@ function Index() {
           <div>
             <span className="text-xs uppercase tracking-[0.3em] text-rose">Rólam</span>
             <h2 className="mt-4 font-display text-4xl leading-tight text-primary md:text-5xl">
-              Ircsi vagyok — <em className="italic">és minden darabot magam válogatok.</em>
+              Ircsi vagyok — <em className="italic">és a teltebb alkatú nőknek válogatok.</em>
             </h2>
             <div className="mt-8 space-y-4 leading-relaxed text-foreground/80">
               <p>
-                Az Ircsi Ruházat több mint egy bolt: egy hely, ahol megtalálhatod
-                azt a ruhát, amelyben igazán jól érzed magad. Minden darabot gondosan
-                válogatok, hogy hozzád találjon.
+                Az Ircsi Ruházat több mint egy bolt: egy hely, ahol a plus size
+                hölgyek is megtalálhatják azt a darabot, amelyben igazán jól érzik
+                magukat. Figyelek a szabásra, az anyagra és arra, hogy minden ruha
+                előnyösen álljon.
               </p>
               <p>
-                Nyíregyházi ruhabolt, ahol a kényelem és a nőiesség kéz a kézben jár.
-                Legyen szó egy meghitt hétköznapról vagy egy különleges alkalomról —
-                nálam megtalálod a hozzád illő darabot.
+                Nyíregyházi ruhabolt, ahol a kényelem és a nőiesség kéz a kézben jár —
+                bővebb méretekben is. Legyen szó egy meghitt hétköznapról vagy egy
+                különleges alkalomról, nálam megtalálod a hozzád illő darabot.
               </p>
             </div>
             <div className="mt-8 flex flex-wrap gap-2 text-xs">
-              {["Kényelmes", "Nőies", "Válogatott", "Nyíregyháza"].map((t) => (
+              {["Plus size", "Kényelmes", "Nőies", "Bővebb méretek", "Nyíregyháza"].map((t) => (
                 <span
                   key={t}
                   className="rounded-full border border-primary/20 bg-secondary px-4 py-1.5 uppercase tracking-wider text-primary"
@@ -186,7 +188,7 @@ function Index() {
           <div className="max-w-2xl">
             <span className="text-xs uppercase tracking-[0.3em] text-rose">Kollekció</span>
             <h2 className="mt-4 font-display text-4xl text-primary md:text-5xl">
-              Válogatott darabok, <em className="italic">amelyek téged keresnek.</em>
+              Válogatott darabok, <em className="italic">amelyek a teltebb alkatot ünneplik.</em>
             </h2>
           </div>
 
@@ -246,15 +248,20 @@ function Index() {
               Írj, hívj, vagy nézz be — <em className="italic">szeretettel várlak.</em>
             </h2>
             <p className="mt-6 max-w-md leading-relaxed text-primary-foreground/80">
-              Ha kérdésed van egy darabról, vagy szeretnél személyesen válogatni,
-              keress bátran! Öröm lesz beszélgetni veled.
+              Ha kérdésed van egy darabról, vagy szeretnél személyesen válogatni
+              plus size ruhák között, keress bátran! Öröm lesz beszélgetni veled.
             </p>
           </div>
 
           <div className="space-y-6">
             <ContactRow label="Telefon" value="(30) 851 0483" href="tel:+36308510483" />
-            <ContactRow label="Helyszín" value="Nyíregyháza" />
-            <ContactRow label="Kategória" value="Női ruhabolt" />
+            <ContactRow
+              label="Cím"
+              value="Gyöngyvirág u. 3."
+              href="https://www.google.com/maps/search/?api=1&query=4400+Ny%C3%ADregyh%C3%A1za%2C+Gy%C3%B6ngyvir%C3%A1g+utca+3"
+            />
+            <ContactRow label="Város" value="4400 Nyíregyháza" />
+            <ContactRow label="Kategória" value="Plus size női ruhabolt" />
             <ContactRow label="Messenger" value="Írj üzenetet" href="#" />
 
             <a
@@ -263,6 +270,33 @@ function Index() {
             >
               Hívj most
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Map */}
+      <section id="terkep" className="bg-secondary/40 py-20 lg:py-24">
+        <div className="mx-auto max-w-6xl px-6 lg:px-12">
+          <div className="mb-10 text-center">
+            <span className="text-xs uppercase tracking-[0.3em] text-rose">Így találsz meg</span>
+            <h2 className="mt-4 font-display text-4xl text-primary md:text-5xl">
+              <em className="italic">Látogass el</em> az üzletbe
+            </h2>
+            <p className="mt-4 text-foreground/70">
+              4400 Nyíregyháza, Gyöngyvirág utca 3.
+            </p>
+          </div>
+          <div className="overflow-hidden rounded-sm shadow-card">
+            <iframe
+              title="Ircsi Ruházat — térkép"
+              src="https://www.google.com/maps?q=4400+Ny%C3%ADregyh%C3%A1za%2C+Gy%C3%B6ngyvir%C3%A1g+utca+3&output=embed"
+              width="100%"
+              height="420"
+              style={{ border: 0 }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
+            />
           </div>
         </div>
       </section>
