@@ -75,16 +75,17 @@ function Index() {
           <div className="flex flex-col justify-center animate-fade-up lg:col-span-6">
             <span className="mb-4 font-script text-3xl text-rose">Nyíregyháza</span>
             <h1 className="font-display text-5xl leading-[1.05] text-primary md:text-6xl lg:text-7xl">
-              Kényelmes és
+              Kényelmes,
               <br />
-              <em className="italic text-rose">nőies</em> ruhák,
+              <em className="italic text-rose">nőies</em> ruhák
               <br />
-              gondosan válogatva.
+              teltebb alkatra.
             </h1>
             <p className="mt-8 max-w-md text-lg leading-relaxed text-foreground/75">
-              Sziasztok! Ircsi vagyok — az Ircsi Ruházat létrehozója. Olyan darabokat
-              hozok nektek, amelyekben jól érzitek magatokat, legyen szó
-              hétköznapokról vagy különleges alkalmakról.
+              Sziasztok! Ircsi vagyok — az Ircsi Ruházat létrehozója. Plus size
+              hölgyeknek válogatok olyan darabokat, amelyek jól szabottak,
+              kényelmesek, és igazán jól állnak — hétköznapokra és különleges
+              alkalmakra egyaránt.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <a
