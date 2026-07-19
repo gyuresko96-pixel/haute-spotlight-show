@@ -1,8 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
-import heroImg from "@/assets/hero.jpg";
-import collection1 from "@/assets/collection-1.jpg";
-import collection2 from "@/assets/collection-2.jpg";
-import collection3 from "@/assets/collection-3.jpg";
+import heroImg from "@/assets/dress-coral.png.asset.json";
+import collection1 from "@/assets/pants-blue.png.asset.json";
+import collection2 from "@/assets/pants-floral.png.asset.json";
+import collection3 from "@/assets/pants-daisy.png.asset.json";
 import logo from "@/assets/logo.png";
 
 export const Route = createFileRoute("/")({
