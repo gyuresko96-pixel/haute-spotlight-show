@@ -188,7 +188,7 @@ function Index() {
           <div className="max-w-2xl">
             <span className="text-xs uppercase tracking-[0.3em] text-rose">Kollekció</span>
             <h2 className="mt-4 font-display text-4xl text-primary md:text-5xl">
-              Válogatott darabok, <em className="italic">amelyek téged keresnek.</em>
+              Válogatott darabok, <em className="italic">amelyek a teltebb alkatot ünneplik.</em>
             </h2>
           </div>
 
