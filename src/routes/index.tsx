@@ -3,7 +3,7 @@ import heroImg from "@/assets/dress-coral.png.asset.json";
 import collection1 from "@/assets/pants-blue.png.asset.json";
 import collection2 from "@/assets/pants-floral.png.asset.json";
 import collection3 from "@/assets/pants-daisy.png.asset.json";
-import logo from "@/assets/logo.png";
+import logoAsset from "@/assets/logo-facebook.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -49,7 +49,7 @@ function Index() {
       <header className="absolute top-0 left-0 right-0 z-20">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-12">
           <a href="#top" className="flex items-center gap-3">
-            <img src={logo} alt="Ircsi Ruházat logó" width={44} height={44} className="rounded-full bg-cream" />
+            <img src={logoAsset.url} alt="Ircsi Ruházat logó" width={44} height={44} className="rounded-full bg-cream" />
             <span className="hidden font-display text-xl tracking-wide text-primary sm:block">
               Ircsi Ruházat
             </span>
@@ -142,7 +142,7 @@ function Index() {
         <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-16 px-6 md:grid-cols-2 lg:px-12">
           <div className="relative">
             <img
-              src={logo}
+              src={logoAsset.url}
               alt="Ircsi Ruházat embléma"
               className="mx-auto w-80"
               loading="lazy"
@@ -318,7 +318,7 @@ function Index() {
       <footer className="bg-primary py-10 text-primary-foreground/80">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 text-sm md:flex-row lg:px-12">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="" width={32} height={32} className="rounded-full bg-cream" />
+            <img src={logoAsset.url} alt="" width={32} height={32} className="rounded-full bg-cream" />
             <span className="font-display text-lg">Ircsi Ruházat Nyíregyháza</span>
           </div>
           <p>© {new Date().getFullYear()} Ircsi Ruházat — Minden jog fenntartva.</p>

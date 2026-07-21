@@ -5,7 +5,8 @@
 @custom-variant dark (&:is(.dark *));
 
 /* Ircsi Ruházat — feminine boutique design system.
- * Royal blue + powder blue + icy white. Elegant serif display, refined sans body.
+ * Royal blue text on cream & blush pink backgrounds.
+ * Elegant serif display, refined sans body.
  * All tokens live here; never hardcode colors in components.
  */
 
@@ -51,41 +52,41 @@
 :root {
   --radius: 0.25rem;
 
-  /* Base */
-  --background: oklch(0.97 0.01 240);           /* icy white */
+  /* Base — warm cream background, deep navy text */
+  --background: oklch(0.97 0.015 55);           /* warm cream */
   --foreground: oklch(0.25 0.08 250);           /* deep navy */
 
-  /* Surfaces */
-  --card: oklch(0.985 0.008 245);
+  /* Surfaces — soft pink/cream cards */
+  --card: oklch(0.985 0.012 50);
   --card-foreground: oklch(0.25 0.08 250);
-  --popover: oklch(0.985 0.008 245);
+  --popover: oklch(0.985 0.012 50);
   --popover-foreground: oklch(0.25 0.08 250);
 
-  /* Brand */
+  /* Brand — royal blue text/actions on cream/blush surfaces */
   --primary: oklch(0.5 0.18 260);               /* royal blue */
   --primary-foreground: oklch(0.99 0.005 240);
-  --secondary: oklch(0.92 0.03 240);             /* powder blue */
+  --secondary: oklch(0.92 0.035 30);              /* blush pink */
   --secondary-foreground: oklch(0.5 0.18 260);
-  --muted: oklch(0.94 0.02 240);
+  --muted: oklch(0.94 0.025 45);
   --muted-foreground: oklch(0.45 0.06 250);
-  --accent: oklch(0.75 0.1 230);                /* sky blue */
+  --accent: oklch(0.75 0.1 230);                  /* sky blue */
   --accent-foreground: oklch(0.5 0.18 260);
 
   --destructive: oklch(0.55 0.22 25);
   --destructive-foreground: oklch(0.98 0.01 80);
-  --border: oklch(0.88 0.02 245);
-  --input: oklch(0.9 0.02 245);
+  --border: oklch(0.88 0.025 50);
+  --input: oklch(0.9 0.025 50);
   --ring: oklch(0.5 0.18 260);
 
-  /* Custom brand tokens */
-  --blush: oklch(0.9 0.03 240);
-  --cream: oklch(0.97 0.01 240);
-  --rose: oklch(0.7 0.12 230);
-  --burgundy: oklch(0.35 0.15 260);
-  --gold: oklch(0.75 0.15 220);
+  /* Custom brand tokens — text in blue family, surfaces in pink/cream */
+  --blush: oklch(0.9 0.04 30);                   /* blush pink surface */
+  --cream: oklch(0.97 0.015 55);                  /* warm cream surface */
+  --rose: oklch(0.55 0.15 260);                  /* royal blue text */
+  --burgundy: oklch(0.35 0.15 260);              /* deep blue text */
+  --gold: oklch(0.65 0.12 250);                  /* muted blue accent */
 
   /* Gradients & shadows */
-  --gradient-warm: linear-gradient(135deg, oklch(0.9 0.04 240) 0%, oklch(0.85 0.06 230) 100%);
+  --gradient-warm: linear-gradient(135deg, oklch(0.95 0.03 55) 0%, oklch(0.9 0.04 30) 100%);
   --gradient-burgundy: linear-gradient(135deg, oklch(0.35 0.15 260) 0%, oklch(0.5 0.18 260) 100%);
   --shadow-soft: 0 20px 50px -20px oklch(0.5 0.18 260 / 0.25);
   --shadow-card: 0 8px 30px -12px oklch(0.5 0.18 260 / 0.15);
@@ -96,13 +97,13 @@
   --chart-3: oklch(0.75 0.15 220);
   --chart-4: oklch(0.75 0.1 230);
   --chart-5: oklch(0.45 0.06 250);
-  --sidebar: oklch(0.985 0.008 245);
+  --sidebar: oklch(0.985 0.012 50);
   --sidebar-foreground: oklch(0.25 0.08 250);
   --sidebar-primary: oklch(0.5 0.18 260);
   --sidebar-primary-foreground: oklch(0.99 0.005 240);
-  --sidebar-accent: oklch(0.92 0.03 240);
+  --sidebar-accent: oklch(0.92 0.035 30);
   --sidebar-accent-foreground: oklch(0.5 0.18 260);
-  --sidebar-border: oklch(0.88 0.02 245);
+  --sidebar-border: oklch(0.88 0.025 50);
   --sidebar-ring: oklch(0.5 0.18 260);
 }
 
