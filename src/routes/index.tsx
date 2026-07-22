@@ -92,7 +92,7 @@ function Index() {
 
       {/* Hero */}
       <section id="top" className="relative overflow-hidden bg-gradient-warm">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-6 pt-32 pb-20 lg:grid-cols-12 lg:px-12 lg:pt-40 lg:pb-28">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-6 pt-16 pb-20 lg:grid-cols-12 lg:px-12 lg:pt-24 lg:pb-28">
           <div className="flex flex-col justify-center animate-fade-up lg:col-span-6">
             <span className="mb-4 font-script text-3xl text-rose">Nyíregyháza</span>
             <h1 className="font-display text-5xl leading-[1.05] text-primary md:text-6xl lg:text-7xl">
