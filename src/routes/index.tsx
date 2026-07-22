@@ -210,6 +210,9 @@ function Index() {
             <h2 className="mt-4 font-display text-4xl text-primary md:text-5xl">
               Válogatott darabok, <em className="italic">amelyek a teltebb alkatot ünneplik.</em>
             </h2>
+            <p className="mt-4 text-foreground/70">
+              Ez nem a teljes kollekció, csak néhány példa. A teljes kollekcióért látogass el facebook oldalamra.
+            </p>
           </div>
 
           <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
