@@ -1,9 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
-import heroImg from "@/assets/dress-coral.png.asset.json";
-import collection1 from "@/assets/pants-blue.png.asset.json";
-import collection2 from "@/assets/pants-floral.png.asset.json";
-import collection3 from "@/assets/pants-daisy.png.asset.json";
-import logoAsset from "@/assets/logo-ircsi.png.asset.json";
+
+const heroImg = { url: "/dress-coral.png" };
+const collection1 = { url: "/pants-blue.png" };
+const collection2 = { url: "/pants-floral.png" };
+const collection3 = { url: "/pants-daisy.png" };
+const logoAsset = { url: "/logo-ircsi.png" };
 
 export const Route = createFileRoute("/")({
   component: Index,
