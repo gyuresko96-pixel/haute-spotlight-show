@@ -109,14 +109,8 @@ function Index() {
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <a
-                href="#kollekcio"
-                className="inline-flex items-center justify-center rounded-full bg-primary px-8 py-3.5 text-sm uppercase tracking-widest text-primary-foreground shadow-soft transition-all hover:bg-primary/90"
-              >
-                Kollekció
-              </a>
-              <a
                 href="#kapcsolat"
-                className="inline-flex items-center justify-center rounded-full border border-primary/30 px-8 py-3.5 text-sm uppercase tracking-widest text-primary transition-colors hover:bg-primary/5"
+                className="inline-flex items-center justify-center rounded-full bg-primary px-8 py-3.5 text-sm uppercase tracking-widest text-primary-foreground shadow-soft transition-all hover:bg-primary/90"
               >
                 Írj nekem
               </a>
