@@ -77,7 +77,6 @@ function Index() {
           </a>
           <ul className="hidden items-center gap-10 text-sm text-foreground/80 md:flex">
             <li><a href="#rolam" className="transition-colors hover:text-primary">Rólam</a></li>
-            <li><a href="#kollekcio" className="transition-colors hover:text-primary">Kollekció</a></li>
             <li><a href="#velemenyek" className="transition-colors hover:text-primary">Vélemények</a></li>
             <li><a href="#kapcsolat" className="transition-colors hover:text-primary">Kapcsolat</a></li>
           </ul>
@@ -211,6 +210,9 @@ function Index() {
             <h2 className="mt-4 font-display text-4xl text-primary md:text-5xl">
               Válogatott darabok, <em className="italic">amelyek a teltebb alkatot ünneplik.</em>
             </h2>
+            <p className="mt-4 text-foreground/70">
+              Ez nem a teljes kollekció, csak néhány példa. A teljes kollekcióért látogass el facebook oldalamra.
+            </p>
           </div>
 
           <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
