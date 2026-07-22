@@ -77,7 +77,6 @@ function Index() {
           </a>
           <ul className="hidden items-center gap-10 text-sm text-foreground/80 md:flex">
             <li><a href="#rolam" className="transition-colors hover:text-primary">Rólam</a></li>
-            <li><a href="#kollekcio" className="transition-colors hover:text-primary">Kollekció</a></li>
             <li><a href="#velemenyek" className="transition-colors hover:text-primary">Vélemények</a></li>
             <li><a href="#kapcsolat" className="transition-colors hover:text-primary">Kapcsolat</a></li>
           </ul>
