@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import portraitAsset from "@/assets/ircsi-portre.jpg.asset.json";
 
 const heroImg = { url: "/dress-coral.png" };
 const collection1 = { url: "/pants-blue.png" };
@@ -154,14 +155,14 @@ function Index() {
       {/* About */}
       <section id="rolam" className="py-24 lg:py-32">
         <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-16 px-6 md:grid-cols-2 lg:px-12">
-          <div className="relative">
+        <div className="relative">
             <img
-              src={logoAsset.url}
-              alt="Ircsi Ruházat embléma"
-              className="mx-auto w-80"
+              src={portraitAsset.url}
+              alt="Ircsi — az Ircsi Ruházat tulajdonosa"
+              className="mx-auto w-80 rounded-sm shadow-card"
               loading="lazy"
-              width={816}
-              height={816}
+              width={1200}
+              height={900}
             />
           </div>
           <div>
