@@ -1,7 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import portraitAsset from "@/assets/ircsi-portre.jpg.asset.json";
+import heroAsset from "@/assets/ircsi-hero.jfif.asset.json";
 
-const heroImg = { url: "/dress-coral.png" };
+const heroImg = heroAsset;
 const collection1 = { url: "/pants-blue.png" };
 const collection2 = { url: "/pants-floral.png" };
 const collection3 = { url: "/pants-daisy.png" };
