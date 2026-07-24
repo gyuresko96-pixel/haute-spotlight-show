@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import portraitAsset from "@/assets/ircsi-portre.jpg.asset.json";
 
 const heroImg = { url: "/dress-coral.png" };
 const collection1 = { url: "/pants-blue.png" };
