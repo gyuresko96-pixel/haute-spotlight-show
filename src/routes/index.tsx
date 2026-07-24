@@ -159,7 +159,7 @@ function Index() {
             <img
               src={portraitAsset.url}
               alt="Ircsi — az Ircsi Ruházat tulajdonosa"
-              className="mx-auto w-80 rounded-sm shadow-card"
+              className="mx-auto w-full rounded-sm shadow-card"
               loading="lazy"
               width={1200}
               height={900}
