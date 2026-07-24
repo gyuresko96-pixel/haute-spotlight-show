@@ -90,6 +90,7 @@
   --gradient-burgundy: linear-gradient(135deg, oklch(0.35 0.15 260) 0%, oklch(0.5 0.18 260) 100%);
   --shadow-soft: 0 20px 50px -20px oklch(0.5 0.18 260 / 0.25);
   --shadow-card: 0 8px 30px -12px oklch(0.5 0.18 260 / 0.15);
+  --gradient-rose-deep: linear-gradient(135deg, oklch(0.45 0.13 350) 0%, oklch(0.6 0.15 350) 100%);
 
   /* Chart & sidebar (retained) */
   --chart-1: oklch(0.5 0.18 260);
@@ -133,6 +134,7 @@
 
 @utility bg-gradient-warm { background-image: var(--gradient-warm); }
 @utility bg-gradient-burgundy { background-image: var(--gradient-burgundy); }
+@utility bg-gradient-rose-deep { background-image: var(--gradient-rose-deep); }
 @utility shadow-soft { box-shadow: var(--shadow-soft); }
 @utility shadow-card { box-shadow: var(--shadow-card); }
 

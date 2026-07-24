@@ -259,7 +259,7 @@ function Index() {
       </section>
 
       {/* Contact / CTA */}
-      <section id="kapcsolat" className="relative overflow-hidden bg-gradient-burgundy text-primary-foreground">
+      <section id="kapcsolat" className="relative overflow-hidden bg-gradient-rose-deep text-primary-foreground">
         <div className="mx-auto grid max-w-6xl grid-cols-1 gap-16 px-6 py-24 md:grid-cols-2 lg:px-12 lg:py-32">
           <div>
             <span className="font-script text-3xl text-accent">Találkozzunk</span>
